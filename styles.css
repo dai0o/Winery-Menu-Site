@@ -79,3 +79,29 @@ main {
     color: #6D5F59;
 }
     
+footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tripadvisor-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+.tripadvisor-logo {
+    width: 50px; 
+    height: auto;
+    object-fit: contain;
+}
+
+.tripadvisor-container p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
