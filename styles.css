@@ -112,13 +112,12 @@ footer {
     object-fit: contain;
 }
 
-.icon-container{
+.icons-container{
     display: flex;
     justify-content: center;
     align-items: center;
     align: center;
     gap: 10px; 
-    height: 70px;
 }
 
 .facebook-logo {
