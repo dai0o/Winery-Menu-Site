@@ -111,3 +111,22 @@ footer {
     height: 65px;
     object-fit: contain;
 }
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+.facebook-logo {
+    width: 65px; 
+    height: 65px;
+    object-fit: contain;
+}
+
+.instagram-logo {
+    width: 65px; 
+    height: 65px;
+    object-fit: contain;
+}
