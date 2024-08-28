@@ -124,11 +124,11 @@ footer {
 .facebook-logo {
     width: 55px; 
     height: 55px;
-    object-fit: contain;
+    object-fit: fill;
 }
 
 .instagram-logo {
     width: 65px; 
     height: 65px;
-    object-fit: contain;
+    object-fit: fill;
 }
