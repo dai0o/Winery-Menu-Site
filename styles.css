@@ -107,9 +107,24 @@ footer {
 }
 
 .googlereview-logo {
-    width: 65px; 
-    height: 65px;
+    width: 60px; 
+    height: 60px;
     object-fit: contain;
+    Padding-Left: 5px;
+}
+
+.googlereview-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+.googlereview-container p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+    Padding-Left: 10px;
 }
 
 .icons-container{
@@ -121,7 +136,7 @@ footer {
 
 .facebook-logo {
     width: 55px; 
-    height: 55px;
+    height: 50px;
     object-fit: fill;
     Margin-Bottom: 5px;
 }
