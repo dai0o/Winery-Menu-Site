@@ -110,7 +110,7 @@ footer {
     width: 60px; 
     height: 60px;
     object-fit: contain;
-    Padding-Left: 5px;
+    Margin-Left: 5px;
 }
 
 .googlereview-container {
@@ -121,10 +121,9 @@ footer {
 }
 
 .googlereview-container p {
-    margin: 0;
     font-size: 16px;
     color: #555;
-    Padding-Left: 10px;
+    Margin-Left: 10px;
 }
 
 .icons-container{
