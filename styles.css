@@ -145,3 +145,15 @@ footer {
     height: 65px;
     object-fit: fill;
 }
+
+.google-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+.google-form p {
+    font-size: 20px;
+    color: #555;
+}
