@@ -176,7 +176,7 @@ ul li {
 
 ul li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -185,3 +185,4 @@ ul li a {
 ul li a:hover {
   background-color: #e3dfd8;
 }
+
