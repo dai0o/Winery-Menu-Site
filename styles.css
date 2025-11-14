@@ -215,7 +215,7 @@ ul li a:hover {
     width: 150px;
     height: auto;
     margin-right: 20px; /* Adjust spacing */
-    object-fit: contain; /* Ensures the image covers the entire space */
+    /* object-fit: contain; /* Ensures the image covers the entire space */
     border-radius: 0; /* Ensure no border radius */
     /*justify-self: center;*/
 }
@@ -236,6 +236,7 @@ ul li a:hover {
 .merch-section {
     margin-bottom: 40px;
 }
+
 
 
 
