@@ -45,6 +45,7 @@ main {
 
 .menu-section {
     margin-bottom: 40px;
+    display: flex;
 }
 
 .menu-section h2 {
@@ -191,3 +192,4 @@ ul li a:hover {
     object-fit: contain; /* Ensures the image covers the entire space */
     border-radius: 0; /* Ensure no border radius */
 }
+
