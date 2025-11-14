@@ -186,3 +186,8 @@ ul li a:hover {
   background-color: #e3dfd8;
 }
 
+.item-img {
+    margin-right: 20px; /* Adjust spacing */
+    object-fit: contain; /* Ensures the image covers the entire space */
+    border-radius: 0; /* Ensure no border radius */
+}
