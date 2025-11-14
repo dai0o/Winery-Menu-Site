@@ -86,8 +86,10 @@ main {
 
 .item-img {
     grid-area: Image;
-    width: auto; /* Adjust width to maintain square shape */
-    height: 100px; /* Adjust height to maintain square shape */
+    max-width: 100px; /* Adjust width to maintain square shape */
+    width: auto;
+    max-height: 100px; /* Adjust height to maintain square shape */
+    height: auto;
     margin-right: 20px; /* Adjust spacing */
     object-fit: contain; /* Ensures the image covers the entire space */
     border-radius: 0; /* Ensure no border radius */
@@ -206,6 +208,7 @@ ul li a {
 ul li a:hover {
   background-color: #e3dfd8;
 }
+
 
 
 
