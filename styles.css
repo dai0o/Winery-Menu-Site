@@ -64,9 +64,9 @@ main {
 }
 
 .menu-item h3 {
-    display: inline-block;
     margin: 0;
     grid-area: Name;
+    justify-self: left;
 }
 
 .menu-item .price {
@@ -81,6 +81,7 @@ main {
     margin: 5px 0 0 0;
     color: #555;
     grid-area: Discription;
+    justify-self: left;
 }
 
 .item-img {
@@ -90,6 +91,7 @@ main {
     margin-right: 20px; /* Adjust spacing */
     object-fit: contain; /* Ensures the image covers the entire space */
     border-radius: 0; /* Ensure no border radius */
+    justify-self: left;
 }
 
 .reminder {
@@ -204,6 +206,7 @@ ul li a {
 ul li a:hover {
   background-color: #e3dfd8;
 }
+
 
 
 
