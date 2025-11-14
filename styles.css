@@ -188,9 +188,12 @@ ul li a:hover {
 }
 
 .item-img {
+    width: 100px; /* Adjust width to maintain square shape */
+    height: 100px; /* Adjust height to maintain square shape */
     margin-right: 20px; /* Adjust spacing */
     object-fit: contain; /* Ensures the image covers the entire space */
     border-radius: 0; /* Ensure no border radius */
 }
+
 
 
