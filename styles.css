@@ -60,6 +60,7 @@ main {
     'Image Name Price'
     'Image Discription discription'
     grid-template-columns: 90px auto 20px;
+    grid-template-rows: 25px auto;
 }
 
 .menu-item h3 {
@@ -73,6 +74,7 @@ main {
     color: #6D5F59;
     font-weight: bold;
     grid-area: Price;
+    justify-self: right;
 }
 
 .menu-item p {
@@ -202,6 +204,7 @@ ul li a {
 ul li a:hover {
   background-color: #e3dfd8;
 }
+
 
 
 
