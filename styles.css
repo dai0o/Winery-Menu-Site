@@ -248,8 +248,9 @@ ul li a:hover {
 .merch-section #polo {
     display: grid;
     grid-template-areas:
-    'Header Header Header Header'
-    'item1 item2 item3 item4';
+    'Header Header'
+    'item1 item2'
+    'item3 item4';
 }
 
 #polo H2 {
@@ -275,8 +276,9 @@ ul li a:hover {
 .merch-section #tshirt {
     display: grid;
     grid-template-areas:
-    'Header Header Header Header'
-    'item1 item2 item3 item4';
+    'Header Header'
+    'item1 item2'
+    'item3 item4';
 }
 
 #tshirt H2 {
@@ -298,6 +300,68 @@ ul li a:hover {
 #tshirt .item4 {
     grid-area: item4;
 }
+
+.merch-section #caps {
+    display: grid;
+    grid-template-areas:
+    'Header Header'
+    'item1 item2'
+    'item3 item4';
+}
+
+#caps H2 {
+    grid-area: Header;
+}
+
+#caps .item1 {
+    grid-area: item1;
+}
+
+#caps .item2 {
+    grid-area: item2;
+}
+
+#caps .item3 {
+    grid-area: item3;
+}
+
+#caps .item4 {
+    grid-area: item4;
+}
+
+.merch-section #suv {
+    display: grid;
+    grid-template-areas:
+    'Header Header'
+    'item1 item2'
+    'item3 item4'
+    'item 5';
+}
+
+#suv H2 {
+    grid-area: Header;
+}
+
+#suv .item1 {
+    grid-area: item1;
+}
+
+#suv .item2 {
+    grid-area: item2;
+}
+
+#suv .item3 {
+    grid-area: item3;
+}
+
+#suv .item4 {
+    grid-area: item4;
+}
+
+#suv .item5 {
+    grid-area: item5;
+}
+
 
 
 
