@@ -211,13 +211,10 @@ ul li a:hover {
 
 
 .merch-img {
-    /*grid-area: Image;*/
     width: 150px;
     height: auto;
     margin-right: 20px; /* Adjust spacing */
-    /* object-fit: contain; /* Ensures the image covers the entire space */
     border-radius: 0; /* Ensure no border radius */
-    /*justify-self: center;*/
 }
 
 .merch-section h2 {
@@ -229,10 +226,8 @@ ul li a:hover {
 .merch-section p {
     color: #6D5F59;
     font-weight: bold;
-    margin-top: 0px
+    margin-top: 0px;
     text-align: center;
-    /*grid-area: Price;
-    justify-self: right;*/
 }
 
 .merch-section {
@@ -303,6 +298,7 @@ ul li a:hover {
 #tshirt .item4 {
     grid-area: item4;
 }
+
 
 
 
