@@ -245,7 +245,7 @@ ul li a:hover {
     text-align: center;
 }
 
-.merch-section #polo {
+#polo {
     display: grid;
     grid-template-areas:
     'Header Header'
@@ -273,7 +273,7 @@ ul li a:hover {
     grid-area: item4;
 }
 
-.merch-section #tshirt {
+#tshirt {
     display: grid;
     grid-template-areas:
     'Header Header'
@@ -301,7 +301,7 @@ ul li a:hover {
     grid-area: item4;
 }
 
-.merch-section #caps {
+#caps {
     display: grid;
     grid-template-areas:
     'Header Header'
@@ -329,7 +329,7 @@ ul li a:hover {
     grid-area: item4;
 }
 
-.merch-section #suv {
+#suv {
     display: grid;
     grid-template-areas:
     'Header Header'
@@ -361,6 +361,7 @@ ul li a:hover {
 #suv .item5 {
     grid-area: item5;
 }
+
 
 
 
