@@ -253,25 +253,26 @@ ul li a:hover {
     'item1 item2 item3 item4';
 }
 
-.merch-section #polo H2 {
+#polo H2 {
     grid-area: Header;
 }
 
-.merch-section #polo .item1 {
+#polo .item1 {
     grid-area: item1;
 }
 
-.merch-section #polo .item2 {
+#polo .item2 {
     grid-area: item2;
 }
 
-.merch-section #polo .item3 {
+#polo .item3 {
     grid-area: item3;
 }
 
-.merch-section #polo .item4 {
+#polo .item4 {
     grid-area: item4;
 }
+
 
 
 
