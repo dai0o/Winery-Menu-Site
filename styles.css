@@ -59,7 +59,7 @@ main {
     grid-template-areas:
     'Image Name Price'
     'Image Discription discription';
-    grid-template-columns: 90px auto 20px;
+    grid-template-columns: 90px auto 30px;
     grid-template-rows: 25px auto;
 }
 
@@ -206,6 +206,7 @@ ul li a {
 ul li a:hover {
   background-color: #e3dfd8;
 }
+
 
 
 
