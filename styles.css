@@ -240,15 +240,38 @@ ul li a:hover {
 
 .merch-section h3 {
     margin-top: 5px;
-    margin-bottom: 0ox
+    margin-bottom: 0px;
 }
 .merch-section h4 {
     margin-top: 0px;
     margin-bottom: 0px;   
 }
 
+.merch-section #polo {
+    grid-template-areas:
+    'Header Header Header Header'
+    'item1 item2 item3 item4';
+}
 
+.merch-section #polo H2 {
+    grid-area: Header;
+}
 
+.merch-section #polo .item1 {
+    grid-area: item1;
+}
+
+.merch-section #polo .item2 {
+    grid-area: item2;
+}
+
+.merch-section #polo .item3 {
+    grid-area: item3;
+}
+
+.merch-section #polo .item4 {
+    grid-area: item4;
+}
 
 
 
