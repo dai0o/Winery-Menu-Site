@@ -213,7 +213,7 @@ ul li a:hover {
 .merch-img {
     width: 150px;
     height: auto;
-    margin-right: 20px; /* Adjust spacing */
+    justify-content: center;
     border-radius: 0; /* Ensure no border radius */
 }
 
@@ -335,7 +335,7 @@ ul li a:hover {
     'Header Header'
     'item1 item2'
     'item3 item4'
-    'item 5';
+    'item5';
 }
 
 #suv H2 {
@@ -361,6 +361,7 @@ ul li a:hover {
 #suv .item5 {
     grid-area: item5;
 }
+
 
 
 
