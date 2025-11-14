@@ -229,6 +229,7 @@ ul li a:hover {
 .merch-section p {
     color: #6D5F59;
     font-weight: bold;
+    margin-top: 0px
     /*grid-area: Price;
     justify-self: right;*/
 }
@@ -237,7 +238,14 @@ ul li a:hover {
     margin-bottom: 40px;
 }
 
-
+.merch-section h3 {
+    margin-top: 5px;
+    margin-bottom: 0ox
+}
+.merch-section h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;   
+}
 
 
 
