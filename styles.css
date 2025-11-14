@@ -55,23 +55,38 @@ main {
 
 .menu-item {
     margin-bottom: 20px;
-    display: flex;
+    display: grid;
+    grid-template-areas:
+    'Image Name Price'
+    'Image Discription discription'
 }
 
 .menu-item h3 {
     display: inline-block;
     margin: 0;
+    grid-area: Name;
 }
 
 .menu-item .price {
     float: right;
     color: #6D5F59;
     font-weight: bold;
+    grid-area: Price;
 }
 
 .menu-item p {
     margin: 5px 0 0 0;
     color: #555;
+    grid-area: Discription;
+}
+
+.item-img {
+    grid-area: Image;
+    width: auto; /* Adjust width to maintain square shape */
+    height: 100px; /* Adjust height to maintain square shape */
+    margin-right: 20px; /* Adjust spacing */
+    object-fit: contain; /* Ensures the image covers the entire space */
+    border-radius: 0; /* Ensure no border radius */
 }
 
 .reminder {
@@ -187,13 +202,8 @@ ul li a:hover {
   background-color: #e3dfd8;
 }
 
-.item-img {
-    width: auto; /* Adjust width to maintain square shape */
-    height: 100px; /* Adjust height to maintain square shape */
-    margin-right: 20px; /* Adjust spacing */
-    object-fit: contain; /* Ensures the image covers the entire space */
-    border-radius: 0; /* Ensure no border radius */
-}
+
+
 
 
 
