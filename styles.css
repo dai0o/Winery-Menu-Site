@@ -211,6 +211,7 @@ ul li a:hover {
 
 
 .merch-img {
+    display: flex;
     width: 150px;
     height: auto;
     justify-content: center;
@@ -361,6 +362,7 @@ ul li a:hover {
 #suv .item5 {
     grid-area: item5;
 }
+
 
 
 
