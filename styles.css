@@ -230,6 +230,7 @@ ul li a:hover {
     color: #6D5F59;
     font-weight: bold;
     margin-top: 0px
+    text-align: center;
     /*grid-area: Price;
     justify-self: right;*/
 }
@@ -241,13 +242,16 @@ ul li a:hover {
 .merch-section h3 {
     margin-top: 5px;
     margin-bottom: 0px;
+    text-align: center;
 }
 .merch-section h4 {
     margin-top: 0px;
-    margin-bottom: 0px;   
+    margin-bottom: 0px;
+    text-align: center;
 }
 
 .merch-section #polo {
+    display: grid;
     grid-template-areas:
     'Header Header Header Header'
     'item1 item2 item3 item4';
@@ -273,6 +277,32 @@ ul li a:hover {
     grid-area: item4;
 }
 
+.merch-section #tshirt {
+    display: grid;
+    grid-template-areas:
+    'Header Header Header Header'
+    'item1 item2 item3 item4';
+}
+
+#tshirt H2 {
+    grid-area: Header;
+}
+
+#tshirt .item1 {
+    grid-area: item1;
+}
+
+#tshirt .item2 {
+    grid-area: item2;
+}
+
+#tshirt .item3 {
+    grid-area: item3;
+}
+
+#tshirt .item4 {
+    grid-area: item4;
+}
 
 
 
