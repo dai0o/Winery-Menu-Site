@@ -366,6 +366,7 @@ ul li a:hover {
 .cashless {
     justify-self: center;
     Font-Size: 30px;
+    grid-area: Word;
 }
 
 .CL-section {
@@ -396,6 +397,7 @@ ul li a:hover {
     grid-area: Card3;
 }
     
+
 
 
 
