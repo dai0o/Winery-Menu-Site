@@ -363,39 +363,40 @@ ul li a:hover {
     grid-area: item5;
 }
 
-#cashless {
+.cashless {
     justify-self: center;
     Font-Size: 30px;
 }
 
-#CL-section {
+.CL-section {
     display: grid;
      grid-template-areas:
     'Word Word Word'
     'Card1 Card2 Card3';
 }
 
-#MCCard {
+.MCCard {
     justify-self: center;
     width: 200px;
     Height: auto;
     grid-area: Card1;
 }
 
-#DCCard {
+.DCCard {
     justify-self: center;
     width: 200px;
     Height: auto;
     grid-area: Card2;
 }
 
-#VCCard {
+.VCCard {
     justify-self: center;
     width: 200px;
     Height: auto;
     grid-area: Card3;
 }
     
+
 
 
 
