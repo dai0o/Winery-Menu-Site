@@ -365,7 +365,7 @@ ul li a:hover {
 
 .cashless {
     justify-self: center;
-    Font-Size: 30px;
+    Font-Size: 35px;
     grid-area: Word;
 }
 
@@ -374,30 +374,31 @@ ul li a:hover {
      grid-template-areas:
     'Word Word Word'
     'Card1 Card2 Card3';
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33% 33% 33%;
 }
 
 .MCCard {
     justify-self: center;
-    width: 200px;
+    width: 30%;
     Height: auto;
     grid-area: Card1;
 }
 
 .DCCard {
     justify-self: center;
-    width: 200px;
+    width: 30%;
     Height: auto;
     grid-area: Card2;
 }
 
 .VCCard {
     justify-self: center;
-    width: 200px;
+    width: 30%;
     Height: auto;
     grid-area: Card3;
 }
     
+
 
 
 
