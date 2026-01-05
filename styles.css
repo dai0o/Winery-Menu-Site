@@ -379,25 +379,26 @@ ul li a:hover {
 
 .MCCard {
     justify-self: center;
-    width: 30%;
+    width: auto;
     Height: auto;
     grid-area: Card1;
 }
 
 .DCCard {
     justify-self: center;
-    width: 30%;
+    width: auto;
     Height: auto;
     grid-area: Card2;
 }
 
 .VCCard {
     justify-self: center;
-    width: 30%;
+    width: auto;
     Height: auto;
     grid-area: Card3;
 }
     
+
 
 
 
